@@ -21,7 +21,7 @@ name='MLPROJECT',
 version='0.0.1',
 author='Harsimran',
 author_email='cloutharsimran@gmail.com',
-packages=find_packages(),
+packages=['src'],
 install_requires=get_requirements('requirements.txt')
 
 )
